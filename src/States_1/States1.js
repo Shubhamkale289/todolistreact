@@ -1,7 +1,8 @@
-import {useState} from 'react';
+import React, {useState} from "react";
 
-export function App() {
-  const [count, setCount] = useState(10);
+
+export function States1() {
+    const [count, setCount] = useState(10);
 
     function decreaseValue() {
         setCount(count-1);
@@ -21,5 +22,3 @@ export function App() {
         </div>
     )
 }
-
-export default App;
