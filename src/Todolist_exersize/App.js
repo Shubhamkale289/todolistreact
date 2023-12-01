@@ -9,12 +9,23 @@ export default function App(){
             return [...prevTodoList, todo];
         })
     }
-    
+    function handleTodoDelete(index){
+        console.log('deleted successfully attempted ', index);
+        const newArr = todoList.filter((todo, i)=>{
+            return i !== index
+        })
+        console.log(newArr);
+        setTodoList(newArr)
+    }
     return (
         <>
             <TodoForm addTodo={addTodo} />
-            <TodoDisplay todoList={todoList} />
+            <TodoDisplay 
+                todoList={todoList} 
+                handleTodoDelete={handleTodoDelete}
+            /> 
         </>
+        //ghg
 
     )
 }

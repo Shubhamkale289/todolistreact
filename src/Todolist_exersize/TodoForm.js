@@ -8,11 +8,12 @@ export default function TodoForm({addTodo}) {
     }
     function handleTodoFormSubmit(e) {
         e.preventDefault();
-        console.log(todoValue);
+        // console.log(todoValue);
         // below code for the add the input in the array list and make the input box empty
         addTodo(todoValue)
         setTodoValue("");
     }
+     
     return (
         <>
             <form>
