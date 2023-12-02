@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Todo({todo, handleTodoDelete,index}){
+export default function Todo({todo,id, handleTodoDelete}){
     
     return (
         <>
@@ -8,7 +8,7 @@ export default function Todo({todo, handleTodoDelete,index}){
             <div>{todo}</div>
             <button>Complete Icon</button>
             <button 
-                onClick={()=> handleTodoDelete(index)} 
+                onClick={()=> handleTodoDelete(id)} 
             >Delete Icon</button>
         </div>
         </>

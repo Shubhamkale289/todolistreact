@@ -5,10 +5,11 @@ export default function TodoDisplay({todoList, handleTodoDelete}) {
 
     return (
         <>
-            {todoList.map((todo, index)=>{
+            {todoList.map((todo, id)=>{
                 return <Todo 
                     todo={todo} 
-                    index={index}
+                    key={todo.id}
+                    id={todo.id}
                     handleTodoDelete={handleTodoDelete} />
             })}
         </>

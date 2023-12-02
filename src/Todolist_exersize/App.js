@@ -9,13 +9,17 @@ export default function App(){
             return [...prevTodoList, todo];
         })
     }
-    function handleTodoDelete(index){
-        console.log('deleted successfully attempted ', index);
-        const newArr = todoList.filter((todo, i)=>{
-            return i !== index
+    function handleTodoDelete(id){
+        console.log('deleted successfully attempted ', id);
+
+        setTodoList((prev)=>{
+            const newArr = prev.filter((todo)=>{
+                return todo.id !== id
+            })
+            return newArr;
         })
-        console.log(newArr);
-        setTodoList(newArr)
+        // console.log(newArr);
+        // setTodoList(newArr)
     }
     return (
         <>
