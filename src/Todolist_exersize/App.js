@@ -21,6 +21,13 @@ export default function App(){
         // console.log(newArr);
         // setTodoList(newArr)
     }
+
+    function handleTodoCompleteToggle(id){
+        setTodoList((prevTodoList)=>{
+            // return [...prevTodoList, todo];
+            const 
+        })
+    }
     return (
         <>
             <TodoForm addTodo={addTodo} />

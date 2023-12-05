@@ -12,7 +12,8 @@ export default function TodoForm({addTodo}) {
         // below code for the add the input in the array list and make the input box empty
         const todoObject = {
             data: todoValue,
-            id: Date.now()
+            id: Date.now(),
+            isCompleted : false
         }
         addTodo(todoObject)
         setTodoValue("");

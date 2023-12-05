@@ -8,7 +8,8 @@ export default function TodoDisplay({todoList, handleTodoDelete}) {
             {todoList.map((todo, id)=>{
                 return <Todo 
                     todo={todo} 
-                    key={todo.id}
+                    isCompleted={todo.isCompleted}
+                    id={todo.id}
                     id={todo.id}
                     handleTodoDelete={handleTodoDelete} />
             })}

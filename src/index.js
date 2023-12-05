@@ -13,7 +13,8 @@ import ReactDOM from 'react-dom/client';
 // import App from './ErrorHandlingForm/App';
 // import App from './Uplifting_State/App';
 // import App from './UpliftingState2/App';
-import App from './Todolist_exersize/App';
+// import App from './Todolist_exersize/App';
+import App from './Lifestyle/App';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
