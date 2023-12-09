@@ -14,8 +14,9 @@ import ReactDOM from 'react-dom/client';
 // import App from './Uplifting_State/App';
 // import App from './UpliftingState2/App';
 // import App from './Todolist_exersize/App';
-import App from './Lifestyle/App';
-
+// import App from './Lifestyle/App';
+// import App from './lifecycleExersize/App'
+import App from './useEffectExer2/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
