@@ -16,7 +16,12 @@ import ReactDOM from 'react-dom/client';
 // import App from './Todolist_exersize/App';
 // import App from './Lifestyle/App';
 // import App from './lifecycleExersize/App'
-import App from './useEffectExer2/App';
+// import App from './useEffectExer2/App';
+// import App from './Api/App';
+// import App from './assingment1/App';
+import App from './pokemanMiniProject/App';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
