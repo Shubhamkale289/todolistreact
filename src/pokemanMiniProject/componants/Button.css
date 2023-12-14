@@ -1,0 +1,15 @@
+
+
+.btn{
+    border: none;
+    padding: 0.6rem 1.1rem;
+    font-size: 1.05rem;
+    border-radius: 4px;
+}
+/* Button style theme */
+.normal{
+    background: linear-gradient(to top right, rgb(217, 87, 217) , pink);
+}
+.grass{
+    background: linear-gradient(to top right, rgb(12, 210, 12), rgb(247, 255, 1));
+}
