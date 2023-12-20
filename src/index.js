@@ -19,7 +19,9 @@ import ReactDOM from 'react-dom/client';
 // import App from './useEffectExer2/App';
 // import App from './Api/App';
 // import App from './assingment1/App';
-import App from './pokemanMiniProject/App';
+// import App from './pokemanMiniProject/App';
+// import App from './reactRouter/App';
+import App from './reducer/App';
 
 
 
