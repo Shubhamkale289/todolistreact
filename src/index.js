@@ -21,8 +21,11 @@ import ReactDOM from 'react-dom/client';
 // import App from './assingment1/App';
 // import App from './pokemanMiniProject/App';
 // import App from './reactRouter/App';
-import App from './reducer/App';
-
+// import App from './reducer/App';
+// import App from './exersizeReducer/App';
+// import App from './exersizeReducer/App';
+// import Appx from './themeToggler/App';
+import App from './protectedRoutes/App';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -6,17 +6,24 @@ export default function App() {
       // console.log('reducer')
         switch(action){
           case 'increament' : 
-            return {count: state.count + 1}
+            return {...state, count: state.count + 1}
           case 'decreament':
-            return {count: state.count - 1 }
+            return {...state, count: state.count - 1 }
           case 'reset':
-            return {count: 0}
+            return {...state, count: 0}
         }
     }
-    const [counter, dispatch] = useReducer(reducer, {count: 0});
+    const [counter, dispatch] = useReducer(reducer, {count: 0, count2: 100});
   return (
     <>
-      {counter.count}
+      
+      <div>
+        {counter.count}
+      </div>
+      <div>
+        {counter.count2}
+      </div>
+      
       <button onClick={()=> dispatch("decreament")}>decreament</button>
       <button onClick={()=> dispatch("reset")}>reset</button>
       <button onClick={()=> dispatch("increament")}>increament</button>
